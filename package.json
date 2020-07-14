@@ -1,0 +1,32 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanSM-5/crm-API.git"
+  },
+  "author": "Eduardo Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanSM-5/crm-API/issues"
+  },
+  "homepage": "https://github.com/DanSM-5/crm-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.24",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
